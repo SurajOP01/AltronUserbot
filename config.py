@@ -14,12 +14,12 @@ logging.basicConfig(level=logging.INFO)
 if os.path.exists("Internal"):
     load_dotenv("Internal")
 
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH", "")
-BOT_TOKEN = getenv("BOT_TOKEN", "")
+API_ID = int(getenv("API_ID", "17492714"))
+API_HASH = getenv("API_HASH", "26b7fd64901c7d3c6276cd06e272ce95")
+BOT_TOKEN = getenv("BOT_TOKEN", "5538029562:AAEQsSbMu0kgZ4q0lg60PpjVA_plRablEfE")
 BOT_USERNAME = getenv("BOT_USERNAME", "User34_bot")
 UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/TheAltronX/AltronUserbot")
-SESSION = getenv("SESSION", "")
+SESSION = getenv("SESSION", "BQCPMtfPCvH_QDY61g8-9XPKoiL_pCXmDRxloHKh1QTHNbrLyiql7KgZJ5MIw9gVSOYcK14o1ZGpdk9Hwaui5SH-mzVzhkGyqrapq7MYau9h7loy7SaRS38qISV3yzF3qNcVP-4ouGVOt0btkOG__BRsTw30ovp--NLabVDlbAO_LCnzAcq3kpmBxK_HHko1aG_Bj8BAESr4CAHTP0gO5VWak-LFcl43Q4LLRmwWTPe6AB1H9UdVdQPGvVnhlGYHPHi-SrP-n4LETM0lwi9Uz6YFbMb94s2xOwEyoy5VmbEvbRSEyIol4f604TjF5cwR7pzz7zLGX5TBqI0-FmfzPuY2AAAAATTHWc4A")
 SESSION2 = getenv("SESSION2", "")
 SESSION3 = getenv("SESSION3", "")
 SESSION4 = getenv("SESSION4", "")
@@ -37,7 +37,7 @@ def make_int(str_input):
         int_list.append(int(x))
     return int_list
   
-sudo = getenv("SUDO_USERS")
+sudo = getenv("SUDO_USERS", "1323020756")
 SUDO_USERS = []
 if sudo:
     SUDO_USERS = make_int(sudo)
