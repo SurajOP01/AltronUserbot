@@ -18,10 +18,6 @@ from config import bot, client, call_py, call_py2, call_py3, call_py4, call_py5,
 aud_list = [
     "./helpers/AUDIO1.mp3",
     "./helpers/AUDIO2.mp3",
-    "./helpers/AUDIO3.mp3",
-    "./helpers/AUDIO4.mp3",
-    "./helpers/AUDIO5.mp3",
-    "./helpers/AUDIO6.mp3",
 ]
 
 
