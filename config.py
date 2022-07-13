@@ -21,7 +21,7 @@ API_ID = int(getenv("API_ID"))
 API_HASH = getenv("API_HASH")
 BOT_TOKEN = getenv("BOT_TOKEN")
 SESSION = getenv("SESSION")
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/TheAltronX/AltronUserbot")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/SurajOP01/AltronUserbot")
 
 def make_int(str_input):
     str_list = str_input.split(" ")
